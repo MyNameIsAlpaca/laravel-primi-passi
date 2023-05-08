@@ -20,4 +20,16 @@ Route::get('/', function () {
     ];
 
     return view('home', compact('data'));
-});
+})->name('home');
+
+Route::get('/second_page', function () {
+
+
+    return view('second_page');
+})->name('second_page');
+
+Route::get('/third_page', function () {
+
+
+    return view('third_page');
+})->name('third_page');

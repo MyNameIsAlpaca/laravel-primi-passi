@@ -7,7 +7,10 @@
   <title>Prova Laravel</title>
 </head>
 <body>
-  <header><div class="link"><a href="{{ route('second_page') }}">Vai alla seconda pagina</a></div> <div class="link"><a href="{{ route('third_page') }}">Vai alla terza pagina</a></div></header>
-  <h1>Ciao {{ $data[0] }}! Benvenuto nella homepage!</h1>
+  <header>
+    <div class="link"><a href="{{ route('home') }}">Torna alla home</a></div>
+    <div class="link"><a href="{{ route('second_page') }}">Vai alla seconda pagina</a></div>
+  </header>
+  <h1>Benvenuto nella terza pagina!</h1>
 </body>
 </html>
